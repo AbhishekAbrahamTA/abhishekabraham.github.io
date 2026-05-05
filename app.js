@@ -724,13 +724,15 @@ function togglePractice(practiceId) {
 }
 
 // ===== Toast Notifications =====
+let toastTimeout = null;
 function showToast(icon, message) {
     const toast = document.getElementById('toast');
     document.getElementById('toastIcon').innerHTML = icon;
     document.getElementById('toastMessage').textContent = message;
 
+    if (toastTimeout) clearTimeout(toastTimeout);
     toast.classList.add('show');
-    setTimeout(() => {
+    toastTimeout = setTimeout(() => {
         toast.classList.remove('show');
     }, 3000);
 }
