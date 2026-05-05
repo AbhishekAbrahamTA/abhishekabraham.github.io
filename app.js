@@ -45,7 +45,7 @@ const lessonData = {
                 <div class="step-number">4</div>
                 <div class="step-content">
                     <strong>Choose Your Tool</strong>
-                    <p>Start with a free tool like CapCut or DaVinci Resolve. You don't need expensive software to create amazing content.</p>
+                    <p>Start with a free editing tool &mdash; several are available at no cost. You don't need expensive software to create great content.</p>
                 </div>
             </div>
 
@@ -257,7 +257,7 @@ const lessonData = {
                 <div class="step-number">1</div>
                 <div class="step-content">
                     <strong>Choose the Right Music</strong>
-                    <p>Select music that matches the mood of your video. Upbeat for vlogs, calm for tutorials, dramatic for cinematic content. Use royalty-free music from sites like YouTube Audio Library, Epidemic Sound, or Artlist.</p>
+                    <p>Select music that matches the mood of your video. Upbeat for vlogs, calm for tutorials, dramatic for cinematic content. Use royalty-free music libraries &mdash; many platforms offer free or licensed music for creators.</p>
                 </div>
             </div>
             <div class="step">

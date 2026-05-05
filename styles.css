@@ -1157,11 +1157,6 @@ img { max-width: 100%; height: auto; }
     box-shadow: var(--shadow-hover);
 }
 
-.tool-card.featured {
-    border-color: rgba(108, 99, 255, 0.2);
-    background: linear-gradient(135deg, rgba(108, 99, 255, 0.02) 0%, rgba(0, 210, 255, 0.02) 100%);
-}
-
 .tool-icon {
     font-size: 2.5rem;
     margin-bottom: 16px;
@@ -1630,6 +1625,16 @@ img { max-width: 100%; height: auto; }
     text-align: center;
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.4);
+}
+
+.footer-disclaimer {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.3);
+    line-height: 1.5;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ===== Responsive ===== */
