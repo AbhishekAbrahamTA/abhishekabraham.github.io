@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditCraft - Learn Video Editing from Scratch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">&#9654;</span> EditCraft
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#practice">Practice</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-elements">
+            <div class="floating-element fe-1">&#9654;</div>
+            <div class="floating-element fe-2">&#9646;&#9646;</div>
+            <div class="floating-element fe-3">&#9632;</div>
+            <div class="floating-element fe-4">&#127916;</div>
+            <div class="floating-element fe-5">&#9835;</div>
+            <div class="floating-element fe-6">&#127908;</div>
+            <div class="timeline-visual">
+                <div class="timeline-track">
+                    <div class="timeline-clip clip-1"></div>
+                    <div class="timeline-clip clip-2"></div>
+                    <div class="timeline-clip clip-3"></div>
+                </div>
+                <div class="timeline-track">
+                    <div class="timeline-clip clip-4"></div>
+                    <div class="timeline-clip clip-5"></div>
+                </div>
+                <div class="timeline-track">
+                    <div class="timeline-clip clip-6"></div>
+                    <div class="timeline-clip clip-7"></div>
+                    <div class="timeline-clip clip-8"></div>
+                    <div class="timeline-clip clip-9"></div>
+                </div>
+                <div class="timeline-playhead"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <span class="hero-badge">Free &bull; Beginner Friendly &bull; Interactive</span>
+            <h1 class="hero-title">Learn Video Editing<br><span class="gradient-text">from Scratch</span></h1>
+            <p class="hero-subtitle">No prior experience needed. Master the art of video editing with step-by-step lessons, interactive exercises, and hands-on practice. Start creating stunning videos today.</p>
+            <div class="hero-buttons">
+                <a href="#lessons" class="btn btn-primary">
+                    <span>Begin Your Journey</span>
+                    <span class="btn-arrow">&rarr;</span>
+                </a>
+                <a href="#why-learn" class="btn btn-secondary">Why Video Editing?</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Modules</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">24+</span>
+                    <span class="stat-label">Lessons</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Free</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Learn Section -->
+    <section class="section why-learn" id="why-learn">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Learn?</span>
+                <h2 class="section-title">Why Video Editing <span class="gradient-text">Matters</span></h2>
+                <p class="section-subtitle">In today's digital world, video is king. Learning to edit opens doors you never knew existed.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#127909;</div>
+                    <h3>Content Creation</h3>
+                    <p>YouTube, TikTok, Instagram Reels &mdash; video content rules the internet. Learn to create polished, professional-looking videos for any platform.</p>
+                </div>
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#128188;</div>
+                    <h3>Career Opportunities</h3>
+                    <p>Video editors are in high demand. From freelancing to studio work, editing skills open up exciting career paths in media and entertainment.</p>
+                </div>
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#128214;</div>
+                    <h3>Storytelling</h3>
+                    <p>Transform raw footage into compelling narratives. Video editing is the art of visual storytelling &mdash; bring your ideas to life.</p>
+                </div>
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#128640;</div>
+                    <h3>Social Media Growth</h3>
+                    <p>Well-edited videos get more views, likes, and followers. Stand out from the crowd with professional editing techniques.</p>
+                </div>
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#127912;</div>
+                    <h3>Creative Expression</h3>
+                    <p>Turn your creative vision into reality. Edit personal projects, short films, vlogs, or artistic videos that express your unique style.</p>
+                </div>
+                <div class="why-card" data-animate>
+                    <div class="why-icon">&#128176;</div>
+                    <h3>Earn Money</h3>
+                    <p>Monetize your skills through freelance gigs, YouTube ad revenue, or by offering editing services to businesses and creators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+    <section class="section progress-section" id="progress">
+        <div class="container">
+            <div class="progress-card glass-card">
+                <div class="progress-info">
+                    <h3>Your Learning Progress</h3>
+                    <p class="progress-text">You've completed <span id="progressCount">0</span> of <span id="totalModules">6</span> modules</p>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                    <span class="progress-percent" id="progressPercent">0%</span>
+                </div>
+                <div class="progress-badges" id="progressBadges">
+                    <!-- Badges will be dynamically inserted -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lessons Section -->
+    <section class="section lessons-section" id="lessons">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Course Content</span>
+                <h2 class="section-title">Structured <span class="gradient-text">Learning Path</span></h2>
+                <p class="section-subtitle">Six carefully crafted modules that take you from zero to confident editor. Each builds on the previous one.</p>
+            </div>
+
+            <div class="modules-grid">
+                <!-- Module 1 -->
+                <div class="module-card" data-module="1" data-animate>
+                    <div class="module-number">01</div>
+                    <div class="module-status" id="status-1">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Not Started</span>
+                    </div>
+                    <h3 class="module-title">Introduction to Video Editing</h3>
+                    <p class="module-desc">Discover what video editing is, why it matters, and see the magic of before-and-after transformations.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 20 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(1)">Start Lesson &rarr;</button>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="module-card" data-module="2" data-animate>
+                    <div class="module-number">02</div>
+                    <div class="module-status" id="status-2">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Locked</span>
+                    </div>
+                    <h3 class="module-title">Understanding the Timeline</h3>
+                    <p class="module-desc">Master the timeline &mdash; learn about clips, cutting, trimming, and arranging footage like a pro.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 25 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(2)">Start Lesson &rarr;</button>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="module-card" data-module="3" data-animate>
+                    <div class="module-number">03</div>
+                    <div class="module-status" id="status-3">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Locked</span>
+                    </div>
+                    <h3 class="module-title">Basic Cuts &amp; Transitions</h3>
+                    <p class="module-desc">Learn essential cutting techniques and transitions like fade, dissolve, and cross-cut.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 30 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(3)">Start Lesson &rarr;</button>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="module-card" data-module="4" data-animate>
+                    <div class="module-number">04</div>
+                    <div class="module-status" id="status-4">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Locked</span>
+                    </div>
+                    <h3 class="module-title">Adding Music &amp; Sound</h3>
+                    <p class="module-desc">Enhance your videos with background music, sound effects, and perfect audio synchronization.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 25 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(4)">Start Lesson &rarr;</button>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="module-card" data-module="5" data-animate>
+                    <div class="module-number">05</div>
+                    <div class="module-status" id="status-5">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Locked</span>
+                    </div>
+                    <h3 class="module-title">Text &amp; Titles</h3>
+                    <p class="module-desc">Add beautiful titles, captions, lower thirds, and animated text overlays to your videos.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 25 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(5)">Start Lesson &rarr;</button>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="module-card" data-module="6" data-animate>
+                    <div class="module-number">06</div>
+                    <div class="module-status" id="status-6">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Locked</span>
+                    </div>
+                    <h3 class="module-title">Exporting Your Video</h3>
+                    <p class="module-desc">Learn how to render and export your videos in the right format for YouTube, Instagram, and more.</p>
+                    <div class="module-meta">
+                        <span>&#128214; 4 Lessons</span>
+                        <span>&#9201; 20 min</span>
+                    </div>
+                    <button class="btn btn-module" onclick="openLesson(6)">Start Lesson &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lesson Modal -->
+    <div class="lesson-modal" id="lessonModal">
+        <div class="lesson-modal-content glass-card">
+            <button class="modal-close" onclick="closeLesson()">&times;</button>
+            <div class="lesson-header">
+                <span class="lesson-badge" id="lessonBadge">Module 1</span>
+                <h2 class="lesson-title" id="lessonTitle">Introduction to Video Editing</h2>
+            </div>
+            <div class="lesson-body" id="lessonBody">
+                <!-- Lesson content will be dynamically inserted -->
+            </div>
+            <div class="lesson-footer">
+                <div class="lesson-quiz" id="lessonQuiz">
+                    <!-- Quiz will be dynamically inserted -->
+                </div>
+                <div class="lesson-actions">
+                    <button class="btn btn-secondary" onclick="closeLesson()">Back to Modules</button>
+                    <button class="btn btn-primary" id="completeBtn" onclick="completeModule()">
+                        Mark as Complete &#10003;
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tools Section -->
+    <section class="section tools-section" id="tools">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Recommended</span>
+                <h2 class="section-title">Best Tools for <span class="gradient-text">Beginners</span></h2>
+                <p class="section-subtitle">You don't need expensive software to start. Here are the best beginner-friendly editing tools.</p>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card" data-animate>
+                    <div class="tool-icon">&#9998;</div>
+                    <div class="tool-badge free-badge">Free</div>
+                    <h3>CapCut</h3>
+                    <p>Perfect for beginners. CapCut is free, intuitive, and packed with features like auto-captions, effects, and templates. Available on mobile and desktop.</p>
+                    <div class="tool-features">
+                        <span>Auto Captions</span>
+                        <span>Templates</span>
+                        <span>Mobile</span>
+                    </div>
+                    <div class="tool-rating">
+                        <span>Beginner Friendly:</span>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <div class="tool-card featured" data-animate>
+                    <div class="tool-icon">&#127916;</div>
+                    <div class="tool-badge free-badge">Free</div>
+                    <h3>DaVinci Resolve</h3>
+                    <p>Industry-standard power for free. DaVinci Resolve offers professional color grading, audio editing, and visual effects. A bit steeper learning curve, but incredibly powerful.</p>
+                    <div class="tool-features">
+                        <span>Color Grading</span>
+                        <span>VFX</span>
+                        <span>Professional</span>
+                    </div>
+                    <div class="tool-rating">
+                        <span>Beginner Friendly:</span>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    </div>
+                </div>
+                <div class="tool-card" data-animate>
+                    <div class="tool-icon">&#127908;</div>
+                    <div class="tool-badge pro-badge">Paid</div>
+                    <h3>Adobe Premiere Pro</h3>
+                    <p>The industry standard for professional video editing. Premiere Pro integrates seamlessly with other Adobe tools and is used by filmmakers and content creators worldwide.</p>
+                    <div class="tool-features">
+                        <span>Industry Standard</span>
+                        <span>Adobe Suite</span>
+                        <span>Plugins</span>
+                    </div>
+                    <div class="tool-rating">
+                        <span>Beginner Friendly:</span>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Section -->
+    <section class="section practice-section" id="practice">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Hands-On</span>
+                <h2 class="section-title">Practice <span class="gradient-text">Challenges</span></h2>
+                <p class="section-subtitle">Apply what you've learned with these fun challenges. Complete them to earn badges!</p>
+            </div>
+            <div class="practice-grid">
+                <div class="practice-card" data-practice="1" data-animate>
+                    <div class="practice-icon">&#9986;</div>
+                    <h3>Cut a 10-Second Clip</h3>
+                    <p>Open any editing software, import a video, and trim it down to exactly 10 seconds. Focus on finding the most interesting part of the footage.</p>
+                    <div class="practice-difficulty">
+                        <span class="difficulty-label">Difficulty:</span>
+                        <span class="difficulty-dots"><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></span>
+                    </div>
+                    <button class="btn btn-practice" onclick="togglePractice(1)">
+                        <span class="practice-btn-text">Mark as Completed</span>
+                    </button>
+                </div>
+                <div class="practice-card" data-practice="2" data-animate>
+                    <div class="practice-icon">&#9835;</div>
+                    <h3>Add Background Music</h3>
+                    <p>Take your 10-second clip and add a background music track. Adjust the volume so the music complements but doesn't overpower any dialog or action.</p>
+                    <div class="practice-difficulty">
+                        <span class="difficulty-label">Difficulty:</span>
+                        <span class="difficulty-dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></span>
+                    </div>
+                    <button class="btn btn-practice" onclick="togglePractice(2)">
+                        <span class="practice-btn-text">Mark as Completed</span>
+                    </button>
+                </div>
+                <div class="practice-card" data-practice="3" data-animate>
+                    <div class="practice-icon">&#84;</div>
+                    <h3>Insert a Title</h3>
+                    <p>Add an eye-catching title at the beginning of your clip. Experiment with fonts, sizes, colors, and simple animations to make it pop.</p>
+                    <div class="practice-difficulty">
+                        <span class="difficulty-label">Difficulty:</span>
+                        <span class="difficulty-dots"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span></span>
+                    </div>
+                    <button class="btn btn-practice" onclick="togglePractice(3)">
+                        <span class="practice-btn-text">Mark as Completed</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Reviews</span>
+                <h2 class="section-title">Student <span class="gradient-text">Feedback</span></h2>
+                <p class="section-subtitle">See what our learners have to say about their experience.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"I had zero experience with video editing. This platform made it so easy to understand. The step-by-step approach and interactive lessons were exactly what I needed!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SA</div>
+                        <div>
+                            <div class="author-name">Sarah A.</div>
+                            <div class="author-role">Content Creator</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="testimonial-text">"The practice challenges are brilliant! Instead of just reading, I actually got to try things myself. I'm now editing my own YouTube videos with confidence."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MK</div>
+                        <div>
+                            <div class="author-name">Mike K.</div>
+                            <div class="author-role">YouTuber</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <p class="testimonial-text">"Clean design, great content, and completely free. The module on transitions really helped me understand how professional editors create smooth-flowing videos."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JL</div>
+                        <div>
+                            <div class="author-name">Jessica L.</div>
+                            <div class="author-role">Film Student</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Have <span class="gradient-text">Questions?</span></h2>
+                <p class="section-subtitle">We'd love to hear from you! Whether you need help or want to share feedback, drop us a message.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">&#128231;</div>
+                        <h3>Email Us</h3>
+                        <p>hello@editcraft.com</p>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">&#128172;</div>
+                        <h3>Community</h3>
+                        <p>Join our Discord community for help and feedback from fellow learners.</p>
+                    </div>
+                    <div class="contact-info-card glass-card">
+                        <div class="contact-icon">&#127758;</div>
+                        <h3>Follow Us</h3>
+                        <p>@editcraft on social media</p>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" id="contactForm" onsubmit="handleContact(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="What would you like to say?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message &rarr;</button>
+                    <div class="form-success" id="formSuccess">
+                        <span>&#10003;</span> Thanks for reaching out! We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Encouragement Toast -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <span class="toast-icon" id="toastIcon">&#127881;</span>
+            <span class="toast-message" id="toastMessage">You're doing great!</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo"><span class="logo-icon">&#9654;</span> EditCraft</a>
+                    <p>A free, interactive platform designed to teach video editing fundamentals to absolute beginners. Learn at your own pace.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Discord" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#lessons">Lessons</a></li>
+                        <li><a href="#tools">Tools</a></li>
+                        <li><a href="#practice">Practice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#lessons">Getting Started</a></li>
+                        <li><a href="#tools">Software Guide</a></li>
+                        <li><a href="#practice">Challenges</a></li>
+                        <li><a href="#contact">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">Discord Server</a></li>
+                        <li><a href="#">YouTube Channel</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EditCraft. Made with &#10084; for aspiring video editors.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
